@@ -1,0 +1,25 @@
+// --- Quote Section ---
+                      SizedBox(
+                        width: double.infinity,
+                        height: 150,
+                        child: CarouselSlider(
+                            items: imgList,
+                            options: CarouselOptions(
+                              height: 150,
+                              viewportFraction: 0.8,
+                              initialPage: 0,
+                              enableInfiniteScroll: true,
+                              reverse: false,
+                              autoPlay: true,
+                              autoPlayInterval: const Duration(seconds: 10),
+                              autoPlayAnimationDuration:
+                                  const Duration(milliseconds: 800),
+                              autoPlayCurve: Curves.fastOutSlowIn,
+                              enlargeCenterPage: true,
+                              enlargeFactor: 0.3,
+                              scrollDirection: Axis.horizontal,
+                            )),
+                      ),
+
+
+                      
