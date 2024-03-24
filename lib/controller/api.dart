@@ -15,19 +15,7 @@ import 'package:nwayoogabyar/model/videofile.dart';
 
 class API {
   final _credential = r'''
-{
-  "type": "service_account",
-  "project_id": "nway-oo-gabyar",
-  "private_key_id": "3b540a5d5afc38f7f28574ea9946a0b175149f75",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCs3dPIwKzfuW+a\no6Cj9qUFutcxTJbfjqpwKZKGK1JEao8g0E5I2UJv6i75j2VBkRqNekURwUARWfqO\n1ipMxfX6mDIJweXHMJhkr5rgh8cKwf43X895LZysJvBdqmhve0o/5eTS5+aLFQzr\nxHWw4VRoWhQjnd2ScXAP5Qfi0ZPT8VO0X+t7FhoOxGx9r0qo9HfpvYo8JDVXpEFy\n0wXMRzObXPihf1qO23//20dMLxnR3pUYcn6FvElLyoz+qBYOs/UNZA4tyzVYosMJ\nWl4Cguk/zCfBx1A6WJK3IU5q+yoF/jtN4s82UgYtn7cqWI1W+9kd9vD6seImmgUI\nQ27hXBDRAgMBAAECggEAC+s//hbTp8zxD7Nmt2Q7EzUp2Qmj9D/k3la6qX4ulG5y\ndiIJ6JNbHAm3rNf0J9XgHYKHy5/mK0W0dTyTOxFOxgIDa541mfFuuHzni8Hg3/JQ\nDs2QEEj5HseQ8Cxe06NarPAzDrWtm2GOrzZ8obI2CZUYaWJDoKRdd4/kZme3FR69\ngXkU8cNpt21p4faMORYsmRr+NXxXCzhwXz8TO0AGdxqSyLG6yM4EroWLDSm/qs2V\nP2e/45SGYhY5pUZh80HO/6niyOapDzj+ktupjEg3ju+RjKWxPh+z7sVs8q/OkSy7\nLmzEWaMVahMF2MrbMAmuylgHoiL9IkQGF/RUCG/DfwKBgQDqTStv8RD8NAuLIpLu\n0AhJ/ghFWMeN3k4cfJRs8hQJCXIg68kPd6CPjRzwMwzQMYsBopeCrDsKBatqUFGa\nRf51mG70qX1Bdn6J9MeILELBAwHpswW1g3nXeP54I9qErU+7OC7sl6zJsIpCTvzn\npuY3euB0nfqfta2jO0YHx4RI7wKBgQC84Ce6mPknDXh8xlB8het0gDKDGEd20Ql7\nOSkx1Q7lV+4rOu0frlBDrmR9Rs7V2KjqeZ9+CCzaQpd1vZq1uhg/U6Pw23xns3S7\nwRe4qGoOSBF05yim42Q0KlOklKp/aYwnYRgoWTtR2W65YNyY6DrRL09GyXGlOvad\nr0eQFgfCPwKBgGOPNw3yGY2Rb/ZHUrg3nc4TK+CLwP//nqFsLoW8t9a/NMfYaS8x\nXgChrdJDXwZ4huDC/i6AkPXJQvWB+6raYy4E/+DmxFq0x0BHyyGJ7TOm24E6mQpw\nO63btAXI9mm6W07qqMXQDZQGeDmE5uJogRrCE+550q1avdXGshNMLGHxAoGAbDoB\naeHX+rG0VcMJQaE3PwVqbEYQRRwY07v4R+6u32nYNntIfrvSkEWwnTxirpS8jcbt\nRjmHAfXgdf4UVYdx92+E5DHQgleJT0CgyBXw14giQJtoZuCrfVy3mvn5DJM9VR9E\nyXIAFLGDycOgBBomAdGbGpO5hBVaVRan6f9FqN8CgYBMYnPY47qE3zYEo6/1kxMA\nj3ZOS9vLFnyQkCXpmgkJObMFJ2Z359SNc4fglpUfygMTCxYOP7acUvnytRuT9beq\nk3EwUw7f76K5NbMhIUQF9nIPLRxO69pmacXBQnFZk3jqhOzDyO9cu31eF9WVGL+1\ntM/cAiUWLvDqsBh0iBiVgg==\n-----END PRIVATE KEY-----\n",
-  "client_email": "nwayoogabyar@nway-oo-gabyar.iam.gserviceaccount.com",
-  "client_id": "116049179394549158217",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nwayoogabyar%40nway-oo-gabyar.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
 ''';
   final String sheetId = '18f8b-t2JAj-mjKxTprnRAdnxQFLFT0ahFbS97ZB1vug';
   late final Spreadsheet ss;
